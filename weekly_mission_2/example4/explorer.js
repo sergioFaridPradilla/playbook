@@ -1,10 +1,11 @@
 
-export default class explorer {
+export default class Explorer {
     constructor(name, username, mission){
-        this.name
-        this.username
-        this.mission
+        this.name = name
+        this.username = username
+        this.mission = mission
     }
+    
     getNameAndUsername(){
         return `Explorer ${this.name}, username: ${this.username}`
     }

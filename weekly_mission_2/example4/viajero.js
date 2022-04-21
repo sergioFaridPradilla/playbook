@@ -1,6 +1,6 @@
- import explorer from "./explorer"
+ import Explorer from "./explorer.js"
 
- export default class Viajero extends explorer{
+ export default class Viajero extends Explorer{
      constructor(name, username, missiom, cycle){
          super(name, username, missiom)
          this.cycle = cycle
