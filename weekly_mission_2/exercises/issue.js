@@ -18,5 +18,5 @@ const issue = {
 }
 
 console.log("\nTitulo del Issue: " + issue.title);
-console.log("Autor y titulo:" + issue.getTitleAndAuthor());
+console.log("Autor y título:" + issue.getTitleAndAuthor());
 console.log("Ingormación general" + issue.getGeneralInfo()+ "\n");
