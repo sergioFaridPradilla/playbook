@@ -74,6 +74,10 @@ const explorers = [
   // const explorerJs = explorers.filter( (explorer) => explorer.stack.includes("js"))
   // console.log(explorerJs);
 
-  console.log("5. Busca el primer explorer que sea de la CDMX, usa FIND")
-  const explorer_city = explorers.find(element =>  element.city === "CDMX")
-  console.log(explorer_city);
+  // console.log("5. Busca el primer explorer que sea de la CDMX, usa FIND")
+  // const explorer_city = explorers.find(element =>  element.city === "CDMX")
+  // console.log(explorer_city);
+
+  console.log("6. Obtén la suma de todos los exercises_completed, usa REDUCE");
+  const reduce_exercises_completed = explorers.reduce( (b, elemen,) => elemen.exercises_completed + b, 0)
+  console.log(reduce_exercises_completed);
