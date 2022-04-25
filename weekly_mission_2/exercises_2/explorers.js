@@ -70,8 +70,10 @@ const explorers = [
   // const explorers_stack = explorers.map( (explorer) => explorer.stack)
   // console.log(explorers_stack);
 
-  console.log("\n4. Obtén la lista de explorers que tengan en su stack 'js', usa FILTER (para validar un elemento en un lista se usa el método includes)");
-  const explorerJs = explorers.filter( (explorer) => explorer.stack.includes("js"))
-  console.log(explorerJs);
+  // console.log("\n4. Obtén la lista de explorers que tengan en su stack 'js', usa FILTER (para validar un elemento en un lista se usa el método includes)");
+  // const explorerJs = explorers.filter( (explorer) => explorer.stack.includes("js"))
+  // console.log(explorerJs);
 
-   
+  console.log("5. Busca el primer explorer que sea de la CDMX, usa FIND")
+  const explorer_city = explorers.find(element =>  element.city === "CDMX")
+  console.log(explorer_city);
