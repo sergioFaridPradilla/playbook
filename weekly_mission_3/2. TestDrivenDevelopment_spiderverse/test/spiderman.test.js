@@ -1,3 +1,4 @@
+const Spiderman = require('../app/spiderman')
 
 describe( "Test unit Spiderman for class ", () => {
     test( "1) Create an spiderman object", () => {
