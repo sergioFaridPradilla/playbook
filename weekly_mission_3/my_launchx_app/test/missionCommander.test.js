@@ -1,4 +1,4 @@
-const MissionCommander = require("./../app/missionCommander");
+const MissionCommander = require("../app/missionCommander");
 
 describe("Unit Test for MissionCommander class ", () => {
     test('Caso de prueba 1', () => {
