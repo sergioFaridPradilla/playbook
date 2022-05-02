@@ -5,4 +5,4 @@ describe("Unit Test for MissionCommander class ", () => {
         const myMissionCommander = new MissionCommander("Woopa")
         expect(myMissionCommander.name).toBe("Woopa")
     })
-})
+}) // fin
