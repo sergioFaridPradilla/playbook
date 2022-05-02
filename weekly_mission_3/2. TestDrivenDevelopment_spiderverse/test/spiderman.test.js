@@ -1,7 +1,11 @@
 
-describe( "Test unit spiderman ", () => {
-    test( "case 1 dumy", () => {
-        const resultofsomeTime = 1+2
-        expect(resultofsomeTime).toBe(4)
+describe( "Test unit Spiderman for class ", () => {
+    test( "1) Create an spiderman object", () => {
+        const andrewGarfield = new Spiderman("Spiderman Sony", 31, "Andrew Garfield", 2, "Sony") 
+        expect(andrewGarfield.name).toBe("Spiderman Sony")
+        expect(andrewGarfield.age).toBe(31)
+        expect(andrewGarfield.actor).toBe("Andrew Garfield")
+        expect(andrewGarfield.movies).toBe(31)
+        expect(andrewGarfield.studio).toBe("Sony")
     })
 })
