@@ -26,5 +26,25 @@ class User {
     get getLastUpdate(){
         return this.lastUpdate
     }
+
+    // Setters
+    
+    set setId(newId){
+        this.id = newId
+    }
+
+    set setUsername(newUsername){
+        this.userName = newUsername
+    }
+
+    set setName(newName){
+        this.name = newName
+    }
+
+    set setBio(newBio){
+        this.bio = newBio
+    }
+
 }
+
 module.exports = User
