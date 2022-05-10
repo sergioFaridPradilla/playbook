@@ -1,4 +1,4 @@
-const User =  require('./../../app/models/user')
+const User =  require('../../app/models/user')
 
 describe("Unit Test for User Class", () => {
     test('Requerimiento 1: Create User Objet ', ()=> {
