@@ -16,4 +16,14 @@
         // expect(userInfoList[2]).toBe("Sergio")
         // expect(userInfoList[3]).toBe("Sin bio")
      })
+     test('Requeriento 3: Crear un método statico GetAllUsernames', ()=>{
+         
+        const user1 = UserService.create(1, "sergio1", "Sergio")
+        const user2 = UserService.create(2, "sergio2", "Sergio")
+        const user3 = UserService.create(3, "sergio3", "Sergio")
+        const usrsNames = UserService.getAllUsernames([user1, user2, user3])
+        expect(usrsNames).toContain("sergio1")
+        expect(usrsNames).toContain("sergio2")
+        expect(usrsNames).toContain("sergio3")
+     })
  })
