@@ -8,4 +8,12 @@
          expect(user.name).toBe("Sergio")
          expect(user.bio).not.toBeUndefined()   
      })
+     test('Requerimiento 2: Crear método estático getInfo', () =>{
+        const user = UserService.create(2, "sergioy", "Sergio")
+        const userInfoList = UserService.getInfo(user)
+        expect(userInfoList[0]).toBe(2)
+        // expect(userInfoList[1]).toBe("sergioy")
+        // expect(userInfoList[2]).toBe("Sergio")
+        // expect(userInfoList[3]).toBe("Sin bio")
+     })
  })
